@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+        <style>
+            body{
+                font:bold 18pt calibri;
+            }
+        </style>
+        <script>
+            function initialize() {
+                arrayOutput = document.getElementById("divout");
+                /*theList = ["1st Item", "2nd Item", "3rd Item", "4th Item", "5th Item"];
+                theList[5] = "6th Item";
+                arrayOutput.innerHTML = theList;*/
+                randomList = [];
+                var randomLength = getRandonInteger(50, 100);
+                for (var i = 0; i < randomLength; i++) {
+                    randomList[randomLength.length] = getRandonInteger(-10, 10);
+                }
+                displayList();
+            }
+            function displayList() {
+                arrayOutput.innerHTML = "";
+                for (var i = 0; i < randomList.length; i++) {
+                    arrayOutput.innerHTML += ": " + randomList[i] + "<br />";
+                }
+            }
+        </script>
+    </head>
+<body onload = "initialize();">
+    <div id="divout"></div>
+</body>
+</html>

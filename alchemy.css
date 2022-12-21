@@ -1,0 +1,50 @@
+body{
+    background-image: url("images/potion.png");
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    background-size: 350px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+h1{
+    margin-left:20px;
+    font:bold 50pt calibri;
+}
+span{
+    font:20pt arial black;
+}
+h1 span{
+    border:1px solid purple;
+    border-radius: 10px;
+    background-color: aqua;
+    padding:5px;
+    box-shadow: 3px 3px 6px 3px black;
+    font:bold 50pt calibri;
+}
+hr{
+    width:80%;
+    margin:20px auto;
+}
+form{
+    diaply:inline;
+}
+input{
+    width:50%;
+}
+input, button{
+    font:16pt calibri;
+}
+p{
+    text-align: center;
+    font:20pt arial;
+}
+.box{
+    font:16pt calibri;
+    border: thick solid salmon;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 5px 5px 10px 8px black;
+}
